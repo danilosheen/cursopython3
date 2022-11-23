@@ -22,8 +22,10 @@ while True:
 
         except Exception as error:
             print(error)
+            time.sleep(3)
             os.system('clear')
-            time.sleep(1)
+            print('Voltando ao menu...')
+            time.sleep(2)
             continue
         
 
