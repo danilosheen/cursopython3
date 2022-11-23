@@ -60,6 +60,7 @@ def verifica_segundo_digito(cpf):
     return primeiro_segundo_digito
 
 def valida_cpf(cpf):
+    
     try:
         cpf_com_primeiro_digito = verifica_primeiro_digito(cpf)
         cpf_com_segundo_digito = verifica_segundo_digito(cpf_com_primeiro_digito)
@@ -93,7 +94,15 @@ while True:
     entrada = input()
     if entrada == '1':
         os.system('clear')
-        valida_cpf(input("Informe o CPF com a formatação: xxx.xxx.xxx-xx\n"))
+        cpf = (input("Informe o CPF com a formatação: xxx.xxx.xxx-xx\n"))
+        cpf_formatado = cpf.replace('.', '').replace('-', '')
+        if cpf_formatado == cpf[0]*len(cpf_formatado):
+            print('Informe um CPF válido com números não repetidos')
+            time.sleep(2)
+            os.system('clear')
+        else:
+            valida_cpf(cpf)
+        
     elif entrada == '2':
         break
     else:
