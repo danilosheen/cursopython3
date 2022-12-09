@@ -2,7 +2,6 @@
 import os
 import time
 
-
 def verifica_primeiro_digito(cpf):
     cpf_particionado = ''
     cpf_multiplicado = 0
@@ -86,7 +85,6 @@ def menu():
     print('1- Validar CPF\n2- Sair')
     print('Digite uma opção: ', end='')
     
-
 
 while True:
     
