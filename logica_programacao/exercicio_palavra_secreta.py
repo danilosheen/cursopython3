@@ -24,7 +24,7 @@ def menu():
     print("0 - Sair")
     print("------------------")
     
-palavras_secretas = ['bola', 'carro', 'bicicleta', 'chaveiro', 'tijolo']
+palavras_secretas = ['camareira', 'impressora', 'camundongo', 'melancia', 'jurubeba']
 
 menu()
 while True:
