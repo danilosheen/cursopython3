@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Danilo",
+    "data_nascimento": "20/05/1999",
+    "altura": 1.78,
+    "peso": 82.0
+  },
+  {
+    "nome": "Joaquim",
+    "data_nascimento": "20/05/2000",
+    "altura": 1.79,
+    "peso": 82.0
+  },
+  {
+    "nome": "Fernando",
+    "data_nascimento": "20/05/2001",
+    "altura": 1.8,
+    "peso": 82.0
+  }
+]
