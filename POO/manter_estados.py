@@ -30,12 +30,14 @@ class Camera:
 
 c1 = Camera('Canon')
 c2 = Camera('Sony')
+c3 = Camera('Nikon')
 
+# c1.filmar()
+# c1.fotografar()
+# c1.parar_filmar()
+# c1.fotografar()
 c1.filmar()
-c1.fotografar()
 c2.fotografar()
-c2.parar_filmar()
-c2.filmar()
-c2.parar_filmar()
-c2.fotografar()
+
+
     
