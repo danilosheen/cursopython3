@@ -17,7 +17,10 @@ class Caneta:
 
     @property
     def cor(self):
-        print('PROPERTY')
+        # print('PROPERTY')
+        if self.cor_tinta == 'Rosa':
+            return 'Escolha outra cor'
+
         return self.cor_tinta
 
     @property
@@ -27,14 +30,15 @@ class Caneta:
 ###########################
 
 
-caneta = Caneta('Azul')
-print(caneta.cor)
-print(caneta.cor)
-print(caneta.cor)
-print(caneta.cor)
-print(caneta.cor)
-print(caneta.cor)
-print(caneta.cor_tampa)
+caneta1 = Caneta('Rosa')
+caneta2 = Caneta('Azul')
+print(caneta1.cor)
+print(caneta1.cor)
+print(caneta2.cor)
+print(caneta2.cor)
+print(caneta1.cor)
+print(caneta2.cor)
+# print(caneta.cor_tampa)
 
 #####################################
 
